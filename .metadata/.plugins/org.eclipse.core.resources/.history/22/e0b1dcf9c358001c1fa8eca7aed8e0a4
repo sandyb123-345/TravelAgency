@@ -1,0 +1,13 @@
+package pages;
+
+import org.openqa.selenium.By;
+
+public class Purchase {
+	public static final By LBL_TITLE_PURCHASE=By.xpath("//div//h2");
+	public static final By TXT_NAME=By.id("inputName");
+	public static final By TXT_ADDRESS=By.id("address");
+	public static final By TXT_CITY=By.id("city");
+	public static final By TXT_STATE=By.id("state");
+	public static final By TXT_ZIP=By.id("zipCode");
+	public static final By DPD_STATE=By.id("cardType");
+}

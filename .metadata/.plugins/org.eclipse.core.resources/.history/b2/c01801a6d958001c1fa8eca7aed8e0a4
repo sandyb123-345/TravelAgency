@@ -1,0 +1,12 @@
+package UIHelpers;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Dropdown {
+	
+	public void selectDropDown(By object) {
+		Select dropdown = new Select());
+	}
+}

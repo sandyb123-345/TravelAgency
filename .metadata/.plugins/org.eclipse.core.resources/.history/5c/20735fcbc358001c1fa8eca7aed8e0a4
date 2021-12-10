@@ -1,0 +1,8 @@
+package pages;
+
+import org.openqa.selenium.By;
+
+public class Purchase {
+	public static final By LBL_TITLE_PURCHASE=By.xpath("//div//h2");
+	public static final By LBL_TITLE_PURCHASE=By.id("inputName");
+}

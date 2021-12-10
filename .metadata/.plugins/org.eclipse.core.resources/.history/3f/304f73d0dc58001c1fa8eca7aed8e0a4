@@ -1,0 +1,8 @@
+package tests;
+
+public class SetupAndTearDown {
+	@BeforeMethod
+	public void beforeMethod() {
+
+	}
+}

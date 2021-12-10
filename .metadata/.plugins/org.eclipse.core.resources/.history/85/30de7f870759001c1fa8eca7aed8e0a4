@@ -1,0 +1,25 @@
+package tests;
+
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
+
+import org.testng.annotations.Test;
+
+import net.jodah.failsafe.internal.util.Assert;
+import pages.FindFlights;
+import pages.Purchase;
+import pages.Reserve;
+
+public class ReserveBooking extends SetupAndTearDown{
+	
+	
+
+	@Test
+	public void VerifyBookFlight() {
+		findFlights.finfFlights("Boston", "Dublin");
+		generic.click(reserve.objChooseFlight("43"));
+		assertTrue(generic.getText(Purchase.LBL_TITLE_PURCHASE).contains("has been reserved"));
+		
+		
+	}
+}

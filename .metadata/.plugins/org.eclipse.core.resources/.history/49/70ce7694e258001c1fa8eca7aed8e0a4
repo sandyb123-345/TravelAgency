@@ -1,0 +1,18 @@
+package tests;
+
+import org.testng.annotations.*;
+
+import browser.Browser;
+import browser.DriverFactory;
+import utilities.Constants;
+
+public class SetupAndTearDown {
+	private Browser browser=new Browser();
+	
+	@BeforeMethod
+	public void beforeMethod() {
+		DriverFactory.setDriver(Constants.BROWSER);
+		browser.navigateToUrl(Constants.URL);
+		
+	}
+}

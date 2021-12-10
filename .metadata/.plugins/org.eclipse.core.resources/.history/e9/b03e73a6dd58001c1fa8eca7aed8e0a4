@@ -1,0 +1,8 @@
+package browser;
+
+public class Browser {
+
+	public void navigateToUrl(String url) {
+		DriverFactory.getDriver().get(url);
+	}
+}

@@ -1,0 +1,14 @@
+package tests;
+
+import org.testng.annotations.Test;
+
+import pages.FindFlights;
+
+public class ReserveBooking extends SetupAndTearDown{
+	FindFlights findFlights=new FindFlights();
+
+	@Test
+	public void VerifyBookFlight() {
+		findFlights.finfFlights("Boston", "Dublin");
+	}
+}

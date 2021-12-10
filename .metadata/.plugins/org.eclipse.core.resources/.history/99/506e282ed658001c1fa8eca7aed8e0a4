@@ -1,0 +1,10 @@
+package UIHelpers;
+
+import org.openqa.selenium.support.ui.Select;
+
+public class Dropdown {
+	
+	public void selectDropDown() {
+		Select dropdown = new Select(driver.findElement(By.id("identifier")));
+	}
+}

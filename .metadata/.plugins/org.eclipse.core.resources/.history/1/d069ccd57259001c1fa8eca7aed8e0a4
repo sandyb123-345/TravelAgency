@@ -1,0 +1,16 @@
+package UIHelpers;
+
+import org.openqa.selenium.By;
+
+import browser.DriverFactory;
+
+public class Generic {
+
+	public void click(By object) {
+		DriverFactory.getDriver().findElement(object).click();
+	}
+	
+	public String getText(By object) {
+		return DriverFactory.getDriver().findElement(object).getText();
+	}
+}

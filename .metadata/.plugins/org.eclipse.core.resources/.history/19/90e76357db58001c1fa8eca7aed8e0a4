@@ -1,0 +1,17 @@
+package pages;
+
+import org.openqa.selenium.By;
+
+import UIHelpers.Dropdown;
+
+public class FindFlights {
+	private Dropdown Dropdown=new Dropdown();
+public static final By DPD_FROM_PORT=By.xpath("//select[@name='fromPort']");
+public static final By DPD_TO_PORT=By.xpath("//select[@name='toPort']");
+public static final By BTN_FIND_FLIGHTS=By.xpath("//input[contains(@class,'btn-primary')]");
+
+public void finfFlights(String dapartureCity, String destinationCity) {
+	
+}
+
+}

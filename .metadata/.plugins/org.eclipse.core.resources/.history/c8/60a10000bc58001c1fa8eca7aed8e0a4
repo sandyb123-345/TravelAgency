@@ -1,0 +1,10 @@
+package pages;
+
+import org.openqa.selenium.By;
+
+public class FindFlights {
+public static final By FROM_PORT=By.xpath("//select[@name='fromPort']");
+public static final By FROM_PORT=By.xpath("//select[@name='fromPort']");
+public static final By FROM_PORT=By.xpath("//select[@name='fromPort']");
+	
+}

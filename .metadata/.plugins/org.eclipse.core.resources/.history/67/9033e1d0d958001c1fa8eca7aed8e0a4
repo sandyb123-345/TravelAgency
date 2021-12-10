@@ -1,0 +1,14 @@
+package UIHelpers;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Select;
+
+import browser.DriverFactory;
+
+public class Dropdown {
+	
+	public void selectDropDown(By object) {
+		Select dropdown = new Select(DriverFactory.getDriver().findElement(object));
+	}
+}

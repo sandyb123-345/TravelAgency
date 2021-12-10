@@ -1,0 +1,7 @@
+package pages;
+
+import org.openqa.selenium.By;
+
+public class Confirmation {
+	public static final By LBL_TITLE_PURCHASE=By.xpath("//div//h1");
+}

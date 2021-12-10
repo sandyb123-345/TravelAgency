@@ -1,0 +1,10 @@
+package pages;
+
+import org.openqa.selenium.By;
+
+public class Reserve {
+	
+	public By objChooseFlight() {
+		return By.xpath("//td[text()='43']//..//input[@type='submit']");
+	}
+}

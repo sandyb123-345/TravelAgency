@@ -1,0 +1,13 @@
+package browser;
+
+import org.openqa.selenium.WebDriver;
+
+public class DriverFactory {
+	public static final ThreadLocal<WebDriver> webdriver = new ThreadLocal<>();
+
+	public void setDriver(String browser) {
+		if(browser.equals("Chrome")) {
+			
+		}
+	}
+}

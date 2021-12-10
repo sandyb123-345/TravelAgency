@@ -1,0 +1,12 @@
+package pages;
+
+import org.openqa.selenium.By;
+
+public class Reserve {
+
+	public static final By DPD_TO_PORT=By.xpath("//select[@name='toPort']");
+	
+	public By objChooseFlight() {
+		return By.xpath("//..//input[contains(@class,'btn-small')]");
+	}
+}

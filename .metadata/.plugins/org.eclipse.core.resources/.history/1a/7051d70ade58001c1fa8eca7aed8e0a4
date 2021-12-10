@@ -1,0 +1,13 @@
+package browser;
+
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
+
+public class Browser {
+
+	public void navigateToUrl(String url) {
+		DriverFactory.getDriver().get(url);
+		DriverFactory.getDriver().manage().window().maximize();
+		DriverFactory.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	}
+}
